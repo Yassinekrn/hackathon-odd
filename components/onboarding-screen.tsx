@@ -124,7 +124,10 @@ export function OnboardingScreen() {
 
                                     {/* Action buttons */}
                                     <div className="w-full mt-auto">
-                                        <Button className="w-full mb-3">
+                                        <Button
+                                            className="w-full mb-3"
+                                            onClick={handleContinue}
+                                        >
                                             Allow
                                         </Button>
                                         <Button

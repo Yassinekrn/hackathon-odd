@@ -18,7 +18,7 @@ export function HomeDashboard() {
               {/* Header */}
               <div className="flex justify-between items-center mb-6">
                 <div>
-                  <h1 className="text-2xl font-bold">Hello, Sara 🌿</h1>
+                  <h1 className="text-2xl font-bold">Hello, Asma 🌿</h1>
                   <p className="text-muted-foreground">Tuesday, April 22</p>
                 </div>
                 <div className="flex items-center gap-1 bg-accent/50 px-3 py-1 rounded-full">
@@ -110,7 +110,7 @@ export function HomeDashboard() {
                     <div key={index} className="flex-shrink-0 w-24">
                       <div className="bg-accent rounded-lg h-24 w-24 flex items-center justify-center mb-1">
                         <img
-                          src={`/placeholder.svg?height=60&width=60&text=${plant}`}
+                          src={`/${plant}.jpg?height=60&width=60&text=${plant}`}
                           alt={plant}
                           className="h-16 w-16"
                         />

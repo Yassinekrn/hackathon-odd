@@ -55,7 +55,7 @@ export function PhotoDiagnostics() {
 
                 {captureState === "captured" && (
                   <img
-                    src="/placeholder.svg?height=400&width=300&text=Plant+Image"
+                    src="/dehydratedBasil.jpg?height=200&width=400&text=Basil+Plant"
                     alt="Captured plant"
                     className="h-full w-full object-cover"
                   />
@@ -64,8 +64,8 @@ export function PhotoDiagnostics() {
                 {captureState === "diagnosed" && (
                   <div className="relative h-full w-full">
                     <img
-                      src="/placeholder.svg?height=400&width=300&text=Plant+Image"
-                      alt="Diagnosed plant"
+                    src="/dehydratedBasil.jpg?height=200&width=400&text=Basil+Plant"
+                    alt="Diagnosed plant"
                       className="h-full w-full object-cover"
                     />
 

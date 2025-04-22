@@ -91,7 +91,7 @@ export function PlantDetailsScreen() {
                     temperature: "65-80°F",
                     humidity: "Medium",
                     growthRate: "Moderate",
-                    imageUrl:`/basil.jpg?height=200&width=400&text=${encodeURIComponent(
+                    imageUrl: `/${plantName}.jpg?height=200&width=400&text=${encodeURIComponent(
                         plantName || "Plant"
                     )}`,
                 };

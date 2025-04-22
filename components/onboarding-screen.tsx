@@ -53,12 +53,22 @@ export function OnboardingScreen() {
                         <div className="px-6 py-8 flex flex-col items-center min-h-[600px]">
                             {/* Plant illustration */}
                             <div className="w-48 h-48 bg-accent rounded-full flex items-center justify-center mb-8">
-                                <img
-                                    src="/placeholder.svg?height=180&width=180"
-                                    alt="Plant illustration"
-                                    className="h-36 w-36"
-                                    aria-hidden="true"
-                                />
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="lucide lucide-map-icon lucide-map h-24 w-24 text-primary"
+                                >
+                                    <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
+                                    <path d="M15 5.764v15" />
+                                    <path d="M9 3.236v15" />
+                                </svg>
                             </div>
 
                             {locationStep === "intro" && (
